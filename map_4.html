@@ -16,8 +16,8 @@ var svg = d3.select("body").append("svg")    //create the SVG panel
       .attr("width", 300)
       .attr("height", 200);
 
-d3.json("C:/Users/Nina/Desktop/Map_4/cartogram_2.json", function(usa) {
-d3.json("http://metrocosm.com/usa-2.geojson", function(usa2) {
+d3.json("rep_proj.json", function(usa) {
+d3.json("cartogram_2.json", function(usa2) {
 
 
 var projection = d3.geo.albersUsa()
